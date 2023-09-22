@@ -11,7 +11,10 @@ import fakeData from "./MOCK_DATA.json"; // Adjust the path to your JSON data fi
 
 export default async function TablePage() {
 
+  prisma.podo.create({data:{id:"1",name:"archit", case_id:1234,lawyer:"dev", court:"Noida"}})
+
   const data1 = await prisma.podo.findMany()
+  console.log(data1)
   const data = useMemo(() => fakeData, []);
   const columns = useMemo(
     () => [

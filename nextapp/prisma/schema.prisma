@@ -27,6 +27,8 @@ model Podo{
   case_id Int
   lawyer String
   court String
+  createdAt DateTime @default(now())
+  updated DateTime @updatedAt
 
 
 }
