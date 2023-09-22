@@ -42,36 +42,7 @@ export default async function TablePage() {
     ],
     []
   );
-  const data = useMemo(() => fakeData, []);
-  const columns = useMemo(
-    () => [
-      {
-        Header: "ID",
-        accessor: "id",
-      },
-      {
-        Header: "First Name",
-        accessor: "first_name",
-      },
-      {
-        Header: "Last Name",
-        accessor: "last_name",
-      },
-      {
-        Header: "Email",
-        accessor: "email",
-      },
-      {
-        Header: "Gender",
-        accessor: "gender",
-      },
-      {
-        Header: "University",
-        accessor: "university",
-      },
-    ],
-    []
-  );
+  
 
   const {
     getTableProps,
