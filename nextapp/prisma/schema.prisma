@@ -19,3 +19,14 @@ model Todo{
   createdAt DateTime @default(now())
   updated DateTime @updatedAt
 }
+
+
+model Podo{
+  id String @id
+  name String 
+  case_id Int
+  lawyer String
+  court String
+
+
+}
