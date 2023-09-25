@@ -22,7 +22,7 @@ model Todo{
 
 
 model Podo{
-  id String @id
+  id String @id @default(uuid())
   name String 
   case_id Int
   lawyer String

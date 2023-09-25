@@ -1,4 +1,4 @@
-// "use client"
+"use client"
 
 
 // TablePage.js or TablePage.tsx
