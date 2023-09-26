@@ -1,8 +1,8 @@
 // import React from 'react'
 // import ReactDOM from 'react-dom'
 
-// const React = require("react");
-import HeaderFile from "./header"
+
+
 
 
 
@@ -304,12 +304,12 @@ ReactDOM.render(<Headera />, document.getElementById('root'))
 //calling a component from another file
 // we have our header function in header.js
 
+// import HeaderFile from "./HeaderFile"
+
+// ReactDOM.render(<HeaderFile/>, document.getElementById('root'))
 
 
-ReactDOM.render(<HeaderFile/>, document.getElementById('root'))
-
-
-
+// above cpde will not work in common js files so commenting them out but it will work in react environment
 
 
 
