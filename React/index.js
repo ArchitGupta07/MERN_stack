@@ -160,16 +160,16 @@ ReactDOM.render(page1, document.getElementById('root'))
 
 
 
-  //   =================================================================================
-  //   =================================================================================  
-  //  Quick Quiz Questions
+//   =================================================================================
+//   =================================================================================  
+//  Quick Quiz Questions
 
-  // 1. Why do we need to "import React from 'react" in our files ?
-  //  Ans. in order to use jsx we need react
+// 1. Why do we need to "import React from 'react" in our files ?
+//  Ans. in order to use jsx we need react
 
-  // 2. If I were to console.log(page) in index.js, what would show up?
+// 2. If I were to console.log(page) in index.js, what would show up?
 
-  // 3. What's wrong with this code:
+// 3. What's wrong with this code:
 //   ```
 //  const page = (
 //   <h1>Hello</h1>
@@ -194,16 +194,16 @@ ReactDOM.render(page1, document.getElementById('root'))
 function Reasons() {
   return (
     <div>
-    <h1>Reasons</h1>
-    {/* <img src=""></img> */}
-    <ul>
-      <li>Wow Home</li>
-      <li>contacts</li>
-      <li>About</li>
-    </ul>
+      <h1>Reasons</h1>
+      {/* <img src=""></img> */}
+      <ul>
+        <li>Wow Home</li>
+        <li>contacts</li>
+        <li>About</li>
+      </ul>
 
 
-  </div>
+    </div>
   )
 }
 
@@ -225,8 +225,8 @@ ReactDOM.render(<Reasons />, document.getElementById('root'))
 //   =================================================================================
 //   =================================================================================
 
-function Header(){
-  return(
+function Header() {
+  return (
     <header>
       <nav>
         Header
@@ -235,8 +235,8 @@ function Header(){
   )
 }
 
-function Footer(){
-  return(
+function Footer() {
+  return (
     <footer>
       done with the footer
     </footer>
@@ -244,30 +244,78 @@ function Footer(){
 }
 
 
-function Page2(){
+function Page2() {
 
   return (
     <div>
 
- <Header/>  {/*  //point to learn here */}
+      <Header />  {/*  //point to learn here */}
 
-    <h1>Reasons</h1>
-    {/* <img src=""></img> */}
-    <ul>
-      <li>Wow Home</li>
-      <li>contacts</li>
-      <li>About</li>
-    </ul>
+      <h1>Reasons</h1>
+      {/* <img src=""></img> */}
+      <ul>
+        <li>Wow Home</li>
+        <li>contacts</li>
+        <li>About</li>
+      </ul>
 
 
-    <Footer/> 
+      <Footer />
 
-  </div>
+    </div>
   )
 
 }
 
-ReactDOM.render(<Page2/>, document.getElementById('root'))
+ReactDOM.render(<Page2 />, document.getElementById('root'))
 
+
+
+//   =================================================================================
+//   =================================================================================  
+//Styling 
+
+
+
+function Headera() {
+  return (
+    <header>
+      <nav className="nav">
+        <ul className="nav-items">
+          <li>Home</li>
+          <li>contacts</li> 
+          <li>About</li>
+        </ul>
+      </nav>
+
+    </header>
+  )
+}
+
+ReactDOM.render(<Headera />, document.getElementById('root'))
+
+
+
+
+
+//   =================================================================================
+//   =================================================================================
+
+//calling a component from another file
+// we have our header function in header.js
+
+import HeaderFile from "./header"
+
+ReactDOM.(, document.getElementById('root'))
+
+
+
+
+
+
+//   =================================================================================
+//   =================================================================================
+//   =================================================================================
+//   =================================================================================
 //   =================================================================================
 //   =================================================================================  

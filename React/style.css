@@ -1,0 +1,7 @@
+.nav-items{
+    list-style: None;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
