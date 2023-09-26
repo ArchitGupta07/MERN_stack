@@ -2,7 +2,7 @@
 // import ReactDOM from 'react-dom'
 
 // const React = require("react");
-
+import HeaderFile from "./header"
 
 
 
@@ -304,9 +304,9 @@ ReactDOM.render(<Headera />, document.getElementById('root'))
 //calling a component from another file
 // we have our header function in header.js
 
-import HeaderFile from "./header"
 
-ReactDOM.(, document.getElementById('root'))
+
+ReactDOM.render(<HeaderFile/>, document.getElementById('root'))
 
 
 
