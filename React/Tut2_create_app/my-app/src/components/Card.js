@@ -1,7 +1,7 @@
 import React from "react";
 import card from "../images/card.jpg";
 
-export default function Card(){
+export default function Card(props){
     return (
         <div className="card">
         <h1>Card content</h1>

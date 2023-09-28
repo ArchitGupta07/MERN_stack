@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 // import Main from "./components/Main";
 import Hero from "./components/Hero";
 import Card from "./components/Card";
+import ReactTips from "./components/ReactTips";
 
 
 export default function App() {
@@ -12,6 +13,7 @@ export default function App() {
             <Navbar />
             <Hero/>
             <Card/>
+            <ReactTips/>
             
         </div>
 
@@ -21,4 +23,4 @@ export default function App() {
 }
 
 
-// 2:43:57  -- time stamp
+// 3:05:37  -- time stamp
