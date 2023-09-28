@@ -4,6 +4,8 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Card from "./components/Card";
 import ReactTips from "./components/ReactTips";
+import Contact from "./components/Contact";
+import img from "./images/card.jpg"
 
 
 export default function App() {
@@ -14,9 +16,13 @@ export default function App() {
             <Hero/>
             <Card/>
             <ReactTips/>
+            <Contact img={img} name="Card"
+            phone="123456" email="card@gmail.com"
+            />
             
         </div>
 
+        
 
 
     )
