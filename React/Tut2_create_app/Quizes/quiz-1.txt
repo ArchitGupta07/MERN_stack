@@ -1,0 +1,5 @@
+What does the map() array method do ?
+
+What do we usually use '.map()' for in react ?
+
+Why is using '.map()' better than just creating the componnets manually by typing them out ?

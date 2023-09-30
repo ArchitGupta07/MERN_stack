@@ -26,17 +26,14 @@ export default function App() {
         <div className="container">
             <Navbar />
             <Hero/>
-            <Card img="card.jpg" rating={5.0} reviewCount = {6}
-            country = "India" title="Life Lessons" price = {100}/>
+            <Card img="card.jpg" rating={5.0} reviewCount = {6} country = "India" title="Life Lessons" price = {100}/>
             <ReactTips/>
             <Contact img={img} name="Card"
             phone="123456" email="card@gmail.com"
             />
 
-            <Joke setup = "Knock Knock"
-            punchline="KGB waits for no-one"/> 
-            <Joke setup = ""
-            punchline="who"/> 
+            <Joke setup = "Knock Knock" punchline="KGB waits for no-one"/> 
+            <Joke setup = "" punchline="who"/> 
 
             {/*second method to use Joke.js */}
             {jokeElements}
@@ -50,4 +47,4 @@ export default function App() {
 }
 
 
-// 3:26:37  -- time stamp
+// 4:11:37  -- time stamp

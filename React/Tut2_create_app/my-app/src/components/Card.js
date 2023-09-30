@@ -7,7 +7,8 @@ export default function Card(props){
 
         <div className="card">
         <h1>Card content</h1>
-        <img className="card--image" src={`../images/${props.img}`} alt="" />
+        <img className="card--image" src={`../images/${props.img}`} alt="" /> 
+        <img className="card--image" src={`../images/${props.img}`} alt="" /> 
         <div className="card--stats">
         <img src="" alt="" />
         <span>{ props.rating }  </span>
