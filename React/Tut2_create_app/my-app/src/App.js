@@ -8,10 +8,20 @@ import Contact from "./components/Contact";
 import img from "./images/card.jpg"
 import Joke from "./components/Joke";
 
+import jokesData from "./components/jokesData";
+
 
 
 export default function App() {
+
+
+    const jokeElements = jokesData.map((joke)=>{
+        return <Joke setup={joke.setup}  punchline={joke.punchline} />
+    })
+
+
     return ( // we can return only a single elements so wrap everything in div or <>
+
 
         <div className="container">
             <Navbar />
@@ -27,6 +37,9 @@ export default function App() {
             punchline="KGB waits for no-one"/> 
             <Joke setup = ""
             punchline="who"/> 
+
+            {/*second method to use Joke.js */}
+            {jokeElements}
             
         </div>
 
