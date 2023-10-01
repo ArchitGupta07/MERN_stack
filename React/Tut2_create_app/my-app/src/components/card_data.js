@@ -1,4 +1,4 @@
-export default [
+const cardData = [
     {
         id:1,
         title: "title hai bhai",
@@ -11,13 +11,13 @@ export default [
 
         },
         location:"Online",
-        openSpots:27,
+        openSpots:0,
 
 
     },
-    
+
     {
-        id:1,
+        id:2,
         title: "dusra title hai bhai",
         description:"dusra description hai bhai",
         price:200,
@@ -31,3 +31,5 @@ export default [
         openSpots:100,
     }
 ]
+
+export default cardData
