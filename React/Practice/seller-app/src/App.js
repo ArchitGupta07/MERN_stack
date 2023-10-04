@@ -1,5 +1,6 @@
 
 import './App.css';
+import Card from './components/Card';
 import Header from './components/Header';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <button className='category--london'>London</button>
 
       </div>
+      <Card/>
     </div>
   );
 }
