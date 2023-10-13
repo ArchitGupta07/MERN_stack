@@ -18,8 +18,14 @@ function add(){
 
 }
 function add(){
-    setCount(preCount => prevCount + 1) //better practice more compact
+    setCount(prevCount => prevCount + 1) //better practice more compact// prevCount automatically gets the count value 
 }
 function add(){
     setCount(count + 1) // not a good practice
 }
+
+
+
+// =================================================
+// =================================================
+// =================================================
