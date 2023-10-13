@@ -1,11 +1,12 @@
 
+import { useState } from 'react';
 import './App.css';
 import Header from './components/Header';
 import Meme from './components/Meme';
 
 function App() {
 
-  const [count, setCount] = React.useState(0)
+  const [count, setCount] = useState(0)
   function add(){
     setCount(count + 1)
   }
@@ -21,5 +22,5 @@ export default App;
 
 
 
-// 5:51:00-timestamp
+// 5:57:00-timestamp
 
