@@ -18,8 +18,8 @@ export default function App() {
 
 
 
+    
     const cards = cardData.map((card)=>{
-
         return(
 
             <>
