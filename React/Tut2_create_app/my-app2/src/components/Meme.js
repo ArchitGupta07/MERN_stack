@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import memesData from "./memesData";
 
 export default function Meme(params) {
+
+
+    const [memeImage, setMemeImage] = useState("")
 
 
     function getMemeImage(){
@@ -16,6 +19,7 @@ export default function Meme(params) {
     return(
        <main>
         <div className="form" action="">
+        
         <input className="form--input" type="text" 
         placeholder="top text"/>
         <input className="form--input" type="text" placeholder="bottom text" />
