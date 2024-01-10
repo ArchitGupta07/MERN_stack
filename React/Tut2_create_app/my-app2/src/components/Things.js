@@ -22,7 +22,7 @@ export default function Things(){
     return(
 
         <div>
-            <button>Add item</button>
+            <button onClick={addItem}>Add item</button>
             {thingsElements}
         </div>
 
