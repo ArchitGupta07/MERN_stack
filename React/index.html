@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Javascript Practice</title>
+</head>
+<body>
+
+
+    <!-- ------------------------Modal------------------------------ -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p>Some text in the Modal..</p>
+          <div id="cartItems"></div>
+          <div class="total_price">Total: Rs. 0</div>
+        </div>
+      
+      </div>
+    <!-- ------------------------Modal------------------------------ -->
+    <header>
+        <a href="" class="logo"><i class="ri-store-3-fill"></i><span>Logo</span></a>
+
+       
+
+
+        <div class="main">
+            <!-- <a href="#" class="cart-link">
+              CART
+              <div class="notification-dot">5</div>
+            </a> -->
+
+            <button class="cart-btn" id="cart-btn">CART</button>
+        </div>
+
+
+    </header>
+     <div class="card-container">
+        <div class="card">
+            <img src="./images/product2.jpg" alt="">
+            <div class="card-content">
+                <h3>Dell XPS</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia ullam facilis ratione minus est, obcaecati officia, possimus ea perspiciatis dolores suscipit iste magnam?</p>
+                <hr>
+                <div class="price">
+                    <h3>1000</h3>
+                    <p>Rs.</p>
+                </div>
+                <div class="quantity">
+                    <h4>Quantity: </h4>
+                    <input type="text" id="quant_input_dell" value="1">
+                </div>
+                <button class="btn" onclick="addToCart('Dell XPS', 1000, 'quant_input_dell')">Add To Cart</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./images/product3.jpg" alt="">
+            <div class="card-content">
+                <h3>Nokia</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia ullam facilis ratione minus est, obcaecati officia, possimus ea perspiciatis dolores suscipit iste magnam?</p>
+                <hr>
+                <div class="price">
+                    <h3>1000</h3>
+                    <p>Rs.</p>
+                    
+                </div>
+                <div class="quantity">
+                    <h4>Quantity: </h4>
+                    <input type="text" id="quant_input_nokia" value="1">ss
+                </div>
+                <button class="btn" onclick="addToCart('Nokia', 1000, 'quant_input_nokia')">Add To Cart</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./images/product4.jpg" alt="">
+            <div class="card-content">
+                <h3>Apple Iphone</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia ullam facilis ratione minus est, obcaecati officia, possimus ea perspiciatis dolores suscipit iste magnam?</p>
+                <hr>
+                <div class="price">
+                    <h3>1000</h3>
+                    <p>Rs.</p>
+                </div>
+                <div class="quantity">
+                    <h4>Quantity: </h4>
+                    <input type="text" id="quant_input_apple" value="1">
+                </div>
+                <button href="" class="btn" onclick="addToCart('Apple Iphone', 1000, 'quant_input_apple')">Add To Cart</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="./script.js"></script>
+    
+</body>
+</html>
